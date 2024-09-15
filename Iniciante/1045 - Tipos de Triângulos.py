@@ -2,8 +2,6 @@ A,B,C = list(map(float, input().split()))
 Lados = [A,B,C]
 Lados.sort(reverse=True)
 
-#print(Lados)
-
 if Lados[0] >= Lados[1]+Lados[2]:
     print('NAO FORMA TRIANGULO ')
 
